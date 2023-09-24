@@ -15,7 +15,7 @@ const SubmitInput = ({ value, isPending, backgroundColor = "#19366d8c", color = 
   return (
     <input
       type='submit'
-      value={isPending ? "Adding blog..." : value}
+      value={isPending ? value : value}
       disabled={isPending}
       style={style}
     />
