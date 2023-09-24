@@ -1,5 +1,5 @@
 import React from "react"
-import SubmitInput from "../src/components/Button"
+import SubmitInput from "../src/components/Submit"
 import { action } from '@storybook/addon-actions';
 
 
